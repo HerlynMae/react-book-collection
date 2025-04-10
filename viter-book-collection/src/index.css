@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black/20;
+  }
+}
+@layer utilities {
+  .container {
+    @apply max-w-[900px] mx-auto w-full;
+  }
+  .input::placeholder-shown {
+    @apply outline-none;
+  }
+}
